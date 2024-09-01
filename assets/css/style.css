@@ -208,6 +208,7 @@ a:hover, a {
 }
 .row>* {
 	padding: 0 15px;
+    
 }
 .row.no-gutters>* {
 	padding: 0;
@@ -2058,11 +2059,18 @@ h2.section_heading_title_big span {
 .service-1-section {
     padding: 150px 0 120px;
 }
-
+.h2-tips{
+    font-size: 32px;
+    line-height: 200%; /* 72px */
+}
 .service-1-block {
     position: relative;
-	padding: 69.5px 0;
+	padding: 69.5px 44px;
     margin-bottom: 30px;
+    border-radius: 16px;
+    border: 1px #E9E9E9;
+    background: #FFF;
+    box-shadow: 0px 10px 22.3px 0px rgba(0, 0, 0, 0.13);
 }
 
 .service-1-icon {
@@ -2111,13 +2119,13 @@ p.service-1-text {
     border-color: var(--theme-color);
 }
 
-.service-1-block:hover h4.service-1-title {
+/* .service-1-block:hover h4.service-1-title {
     color: #fff;
-}
+} */
 
-.service-1-block:hover p.service-1-text {
+/* .service-1-block:hover p.service-1-text {
     color: rgb(255 255 255 / 60%);
-}
+} */
 
 .service-1-block:hover .service-1-link a {
     color: #fff;
@@ -2140,7 +2148,7 @@ p.service-1-text {
 	transition-delay: .2s;
 }
 
-.service-1-block:hover:before {
+/* .service-1-block:hover:before {
 	opacity: 1;
 	transform: rotate(-7deg);
 }
@@ -2157,7 +2165,7 @@ p.service-1-text {
 	opacity: 0;
 	transition: .5s;
     transform: scaleY(0);
-}
+} */
 
 .service-1-block:hover:after {
 	opacity: 1;
@@ -2525,6 +2533,9 @@ p.why-chooseus-1-text {
 
 .why-chooseus-1-image {
     position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/images/resource/image-4.jpg);
 }
 
 .why-chooseus-1-shape {
@@ -2541,17 +2552,23 @@ p.why-chooseus-1-text {
     background: #5BB286;
 }
 
-.why-chooseus-1-block:nth-child(2) {
+/* .why-chooseus-1-block:nth-child(2) {
     border: 2px dashed var(--theme-color);
     padding: 30px 30px 10px;
     margin-bottom: 35px;
-}
+} */
 
 .why-chooseus-1-block {
+    border-radius: 12px;
+    border: 1px #C0C0C0 solid;
+    padding: 36px 24px;
     margin-bottom: 10px;
 }
 
 .why-chooseus-1-image img {
+    max-width: 100%;
+    height: auto; /* 這樣圖片會根據內容調整高度 */
+    object-fit: cover; /* 確保圖片不會變形 */
     position: relative;
 }
 
