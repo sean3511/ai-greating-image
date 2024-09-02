@@ -172,10 +172,11 @@ a:hover, a {
     border-radius: 4px;
 }
 .header-social{
+    flex: 1 1 0;
     display: flex;
     gap: 8px;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 }
 .PC-r_H5-c
 {
@@ -644,6 +645,7 @@ ul.header-top-1-contact-info li a:hover {
 	position: relative;
 }
 .main-header .header-upper .logo-box {
+    flex: 1 1 0;
 	z-index: 10;
 }
 .main-header .header-upper .logo-box .logo {
@@ -657,7 +659,9 @@ ul.header-top-1-contact-info li a:hover {
 .main-header .header-upper .left-column {
 	position: relative;
 }
-
+.middle-column{
+    text-align: center;
+}
 .main-header .nav-outer {
 	position: relative;
 	z-index: 1;
@@ -722,7 +726,7 @@ ul.header-top-1-contact-info li a:hover {
 .main-menu .navigation {
 	position: relative;
 	margin: 0px;
-	margin-left: 50px;
+
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
