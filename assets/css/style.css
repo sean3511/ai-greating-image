@@ -171,6 +171,12 @@ a:hover, a {
     padding: 8px;
     border-radius: 4px;
 }
+.bottom-block-area{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
 .header-social{
     flex: 1 1 0;
     display: flex;
