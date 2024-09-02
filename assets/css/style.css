@@ -199,6 +199,13 @@ a:hover, a {
 ::-ms-input-placeholder {
 	color: inherit;
 }
+.grid{
+    display: grid;
+}
+.photoitems{
+    height: 473px;
+    background-color: #233145;
+}
 .row {
 	margin-left: -15px;
 	margin-right: -15px;
