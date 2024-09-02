@@ -173,6 +173,8 @@ a:hover, a {
 .header-social{
     display: flex;
     gap: 8px;
+    align-items: center;
+    justify-content: center;
 }
 .PC-r_H5-c
 {
@@ -219,6 +221,17 @@ a:hover, a {
 }
 .row.no-gutters>* {
 	padding: 0;
+}
+.bottom-block{
+   background-image: url(/assets/images/resource/bottom-block.png);
+   background-position: center;
+    border-radius: 40px;
+    padding: 120px 60px;
+    text-align: center;
+    margin:40px 15px
+}
+.bottom-block h2{
+    color: #FFF;
 }
 .gray-block{
     border-radius: 36px;
@@ -299,7 +312,13 @@ a:hover, a {
     padding: 20px;
     text-align: center;
 }
-
+.theme-dark-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -20.77%, rgba(0, 0, 0, 0.50) 100.04%), linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/assets/images/slider-image/image06.jpg) lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.theme-dark-bg h2,p{
+    color: #FFF;
+}
 
 .theme-gray-bg {
     background: #F2F2F2;
