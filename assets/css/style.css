@@ -223,7 +223,7 @@ a:hover, a {
 	padding: 0;
 }
 .bottom-block{
-   background-image: url(/assets/images/resource/bottom-block.png);
+   background-image: url(assets/images/resource/bottom-block.png);
    background-position: center;
     border-radius: 40px;
     padding: 120px 60px;
