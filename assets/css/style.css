@@ -73,7 +73,7 @@
 	min-width: 350px;
 	z-index: 9;
 	margin: 0px auto;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 body {
 	font-size: 16px;
@@ -265,7 +265,7 @@ a:hover, a {
 	width: 100%;
 	min-width: 300px;
 	z-index: 9;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 .auto-container {
 	position: static;
@@ -570,13 +570,13 @@ a.btn-1.btn-alt:hover {
 /* Header Style */
 
 .main-header {
-	position: relative;
+	position: sticky;
 	display: block;
 	width: 100%;
 	z-index: 9999;
 	top: 0px;
 	left: 0px;
-	background: none;
+	background: #FFF;
 	clear: both;
 }
 /* Header Top */
@@ -1146,7 +1146,7 @@ ul.header-top-1-contact-info li a:hover {
 
 ***/
 
-.sticky-header {
+.v{
 	position: fixed;
 	visibility: hidden;
 	opacity: 0;
@@ -3942,6 +3942,7 @@ section.service-2-section.alt-2 {
 
 /* client logo */
 @media (min-width:1200px) {
+
     .client-logo-1 .col-xl-2 {
         flex: 0 0 auto;
         width: 20%;

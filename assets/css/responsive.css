@@ -1,6 +1,6 @@
 @media only screen and (max-width: 7000px){
 	.page-wrapper{
-		overflow: hidden;
+		/* overflow: hidden;s */
 	}
 }
 @media only screen and (max-width: 1700px){
@@ -29,6 +29,9 @@
 	}
 }
 @media only screen and (max-width: 1200px){
+	.header-social{
+        display: none;
+    }
 	/* Default */
 	.main-header .nav-outer .main-menu,
 	.sticky-header{
