@@ -281,7 +281,7 @@ a:hover, a {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    overflow: visible; /* 使容器内的内容不会被裁切 */
+    overflow: hidden; /* 使容器内的内容不会被裁切 */
 }
 
 .scroll-container {
